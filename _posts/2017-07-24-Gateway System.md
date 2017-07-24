@@ -27,12 +27,67 @@ URL: file://localhost/etc/config/system
 
 config
 
-这是一个普通段落。
+
 
 <table>
-    <tr>
-        <td>Foodd</td>
-    </tr>
+    <thead>
+	<tr>
+	    <th>Resource</th>
+	    <th>ID</th>
+		<th>Access Type</th>
+		<th>Multiple Instances</th>
+		<th>Mandatory</th>
+		<th>Type</th>
+		<th>Range/Enumeration</th>
+		<th>Units</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+<tbody>
+	<tr>
+        <td>Hostname</td>
+        <td>0</td>
+        <td>R,W</td>
+        <td>No</td>
+        <td>Optional</td>
+        <td>String</td>
+        <td></td>
+        <td></td>
+        <td>Hostname of the System</td>
+	</tr>
+	<tr>
+		<td>Timezone</td>
+		<td>1</td>
+		<td>R,W</td>
+		<td>No</td>
+		<td>Optional</td>
+		<td>String</td>
+		<td></td>
+		<td></td>
+		<td>The timezone used in the system</td>
+	</tr>
+	<tr>
+		<td>DNS Server List</td>
+		<td>2</td>
+		<td>R,W</td>
+		<td>No</td>
+		<td>Optional</td>
+		<td>String</td>
+		<td></td>
+		<td></td>
+		<td>List of DNS Servers used by this system</td>
+	</tr>
+	<tr>
+		<td>NTP Server List</td>
+		<td>3</td>
+		<td>R,W</td>
+		<td>No</td>
+		<td>Optional</td>
+		<td>String</td>
+	    <td></td>
+		<td></td>
+		<td>List of NTP Servers used by this system</td>
+	</tr>
+</tbody>
 </table>
 
-这是另一个普通段落。
