@@ -4,6 +4,7 @@ title: Gateway System
 Example Gateway Application Object describing base system
 
 LWM2M MODEL
+
 Object Version: urn:oma:lwm2m:ext:1022:1
 
 SHA1 Checksum: 917d11c244a7271a054a68b1cf1d47c618ca562f
