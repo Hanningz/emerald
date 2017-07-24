@@ -1,7 +1,7 @@
 ---
 title: Gateway System
 ---
-Example Gateway Application Object describing base system
+description: Example Gateway Application Object describing base system
 
 LWM2M MODEL
 
@@ -14,11 +14,15 @@ Resource Fields:
 Example Usage: Outline how to interact with this object, if needed.
 
 XML
+
 JSON: 
 
 code:
 
 UCI model
+
 OpenWRT gateway native data model for the whole gateway
-file://localhost/etc/config/system
+
+URL: file://localhost/etc/config/system
+
 config
